@@ -1,5 +1,5 @@
-```mermaid
 graph TD
-    A[Start] --> B{Decision};
-    B -->|Yes| C[Continue];
-    B -->|No| D[Stop];
+    A[Start] --> B{Process Step 1}
+    B --> C{Process Step 2}
+    C -- Yes --> D[End Success]
+    C -- No --> E[End Failure]
