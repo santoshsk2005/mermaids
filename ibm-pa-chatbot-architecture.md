@@ -1,5 +1,4 @@
 # IBM Planning Analytics Chatbot Architecture
-
 ```mermaid
 graph TD
     A[Business Users] --> B[Chatbot Gateway]
